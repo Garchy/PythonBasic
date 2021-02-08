@@ -17,7 +17,7 @@ def redo(task, task_re):
         task.append(aux)
 
 while True:
-    answ = input("\nType if you want Add, List, Undo, Redo or Exit [A/L/U/R/E]: ")
+    answ = input("\nType if you want to Add, List, Undo, Redo or Exit [A/L/U/R/E]: ")
     answ = answ.upper()
 
     if answ == 'A':
