@@ -15,7 +15,7 @@ class New(QMainWindow, Ui_MainWindow):
         image, _ = QFileDialog.getOpenFileName(
             self.centralwidget,
             'Open File',
-            r'C:\Gabryel\Screenshots',
+            r'',
             #options=QFileDialog.DontUseNativeDialog            
         )
 
@@ -36,7 +36,7 @@ class New(QMainWindow, Ui_MainWindow):
         image, _ = QFileDialog.getSaveFileName(
             self.centralwidget,
             'Save File',
-            r'C:\Gabryel\Screenshots'        
+            r''        
         )
         self.newImage.save(image, 'PNG')
 
